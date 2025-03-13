@@ -1,0 +1,6 @@
+pdfplumber
+spacy
+transformers
+requests
+PyPDF2
+torch

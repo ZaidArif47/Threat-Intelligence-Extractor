@@ -1,0 +1,672 @@
+{
+    "IoCs": {
+        "IP addresses": [
+            "103.159.132.96",
+            "114.114.114.114",
+            "8.8.8.8"
+        ],
+        "Domains": [
+            "www.whatismyip.com",
+            "research.checkpoint.com"
+        ]
+    },
+    "TTPs": {
+        "Tactics": [
+            [
+                "'TA0001': 'Initial Access'"
+            ],
+            [
+                "'TA0002': 'Execution'"
+            ],
+            [
+                "'TA0003': 'Persistence'"
+            ],
+            [
+                "'TA0008': 'Lateral Movement'"
+            ],
+            [
+                "'TA0010': 'Exfiltration'"
+            ],
+            [
+                "'TA0011': 'Command And Control'"
+            ]
+        ],
+        "Techniques": [
+            [
+                "'T1071.001': 'Web Shell'"
+            ]
+        ]
+    },
+    "Threat Actor(s)": [
+        "APT30"
+    ],
+    "Malware": [
+        [
+            {
+                "Name": "world.txt"
+            },
+            {
+                "md5": "7d793037a0760186574b0282f2f435e7"
+            },
+            {
+                "sha1": "7c211433f02071597741e6ff5a8ea34789abbf43"
+            },
+            {
+                "sha256": "486ea46224d1bb4fb680f34f7c9ad96a8f24ec88be73ea8e5a6c65260e9cb8a7"
+            },
+            {
+                "ssdeep": "3:JP:JP"
+            },
+            {
+                "TLSH": ""
+            },
+            {
+                "tags": [
+                    "known-distributor",
+                    "text",
+                    "nsrl"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "android-cts-7.1_r6-linux_x86-arm.zip"
+            },
+            {
+                "md5": "d41d8cd98f00b204e9800998ecf8427e"
+            },
+            {
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+            },
+            {
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "ssdeep": "3::"
+            },
+            {
+                "TLSH": "TNULL"
+            },
+            {
+                "tags": [
+                    "via-tor",
+                    "runtime-modules",
+                    "known-distributor",
+                    "zero-filled",
+                    "legit",
+                    "trusted",
+                    "direct-cpu-clock-access",
+                    "nsrl",
+                    "software-collection",
+                    "attachment"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "(inno#005150)"
+            },
+            {
+                "md5": "5d41402abc4b2a76b9719d911017c592"
+            },
+            {
+                "sha1": "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d"
+            },
+            {
+                "sha256": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+            },
+            {
+                "ssdeep": "3:iKn:p"
+            },
+            {
+                "TLSH": "TNULL"
+            },
+            {
+                "tags": [
+                    "known-distributor",
+                    "nsrl",
+                    "trusted",
+                    "idle",
+                    "text",
+                    "long-sleeps"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": ""
+            },
+            {
+                "md5": "cf4ae8d0e1d4b3a0dfaea9e2661e7116"
+            },
+            {
+                "sha1": "66ff835ec8b313b6fcd6da53a9317370e4cbab4e"
+            },
+            {
+                "sha256": "ca7f297dc04acad2fab04d5dc2de9475aed4186805f6c237c10b8f56b384cf30"
+            },
+            {
+                "ssdeep": "768:Z/yA9pQaRq5Gzu1sZhY9q345R5B1uBq52DBJJ5VRO0p4Yk1Wb89gXDQUGHg6pdsi:Z/ykQaq8u1tqIDPwBqkdXJ4YSS89cz6v"
+            },
+            {
+                "TLSH": "T1F623E068FC438470E37FA6B7C632A541DA6F1244C3306496AAF5F7C64A05DC41F6BACA"
+            },
+            {
+                "tags": [
+                    "exploit",
+                    "calls-wmi",
+                    "cve-2017-0199",
+                    "docx"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "qax23.xp"
+            },
+            {
+                "md5": "e8ae6dda3192391c442b981fa17d4cab"
+            },
+            {
+                "sha1": "5bb0fdedf51a4c4216592e65cd1006c67773b438"
+            },
+            {
+                "sha256": "1e18314390302cd7181b710a03a456de821ad85334acfb55f535d311dd6b3d65"
+            },
+            {
+                "ssdeep": "3072:q97bXTUSpXLNl9vjBUCaLQ9L17ZDtKKxUQ//CVtcdCL9uKD3DFWmKd/NmOl6qjh7:q97zTUSFplkqZlDD6e/FdY9uKDzk6qF7"
+            },
+            {
+                "TLSH": "T160F38C01B480C032D6BE19380974DB725B7FA9304F60DADB67944E7A5F742C1EA39AB7"
+            },
+            {
+                "tags": [
+                    "pedll",
+                    "spreader",
+                    "malware",
+                    "calls-wmi",
+                    "long-sleeps"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "this_is_malicious_do_not_open.rtf"
+            },
+            {
+                "md5": "9d56c86249323a0080755473a9e34e58"
+            },
+            {
+                "sha1": "0963ad604c315f649c2b03312029a90a13845267"
+            },
+            {
+                "sha256": "3541f3d15698711d022541fb222a157196b5c21be4f01c5645c6a161813e85eb"
+            },
+            {
+                "ssdeep": "12288:EovoMqSOySgoMSGpE9DgcQDiEVePsJYeqUeY:t8JyVwGO9DgcgiEVQsOeqUn"
+            },
+            {
+                "TLSH": "T15194AFF825042DD5E66F125BDA96B8891FB6F6238AD794CC50AAE7F30573375FE02800"
+            },
+            {
+                "tags": [
+                    "rtf",
+                    "exploit",
+                    "ole-embedded",
+                    "ole-control",
+                    "cve-2018-0798",
+                    "cve-2017-11882",
+                    "cve-2017-1882",
+                    "cve-2018-0802"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "fav.ico"
+            },
+            {
+                "md5": "9521e4138fd0e6996072778cd4f1f06a"
+            },
+            {
+                "sha1": "90b4f748ca47b78260244cca198e9421d377d672"
+            },
+            {
+                "sha256": "4747e6a62fee668593ceebf62f441032f7999e00a0dfd758ea5105c1feb72225"
+            },
+            {
+                "ssdeep": "6144:iNehSoEkJlR1fhrdzfl/qbYbHzdSz4a4MALsSnZZ8N3P8/Xyhz5MDEC7:i+SFk3RNhpz9/Xwz4jMAISnb8N7R5gz"
+            },
+            {
+                "TLSH": "T15684BFB830042DD6E66F12AFDA55F8D82FA6F62389D794C850A9E7F30573375EE02805"
+            },
+            {
+                "tags": [
+                    "detect-debug-environment",
+                    "ole-control",
+                    "ole-embedded",
+                    "checks-user-input",
+                    "cve-2017-1882",
+                    "rtf",
+                    "cve-2018-0798",
+                    "cve-2017-11882",
+                    "exploit",
+                    "cve-2018-0802",
+                    "calls-wmi"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "HuYR6.t"
+            },
+            {
+                "md5": "7e444d358666f5a238a5e31c92c16b3b"
+            },
+            {
+                "sha1": "6ee1ec1664c2525c4fda873793c11fb841578b7a"
+            },
+            {
+                "sha256": "390e6820b2cc173cfd07bcebd67197c595f4705cda7489f4bc44c933ddcf8de6"
+            },
+            {
+                "ssdeep": "3072:MmriEMlRFo3Deiz4kMLWEEvpADsgEMY/sJN7H/KqO+psuHI0DW5DH9dbNmCdzKN/:trRya3Deiz4NyEvEMYQp/S+KuHIOW/zG"
+            },
+            {
+                "TLSH": "T16C04AE12B080C073E37E053816B4EB725AFDA9300F759ACBB3959E795E702C19635E6B"
+            },
+            {
+                "tags": [
+                    "calls-wmi",
+                    "checks-user-input",
+                    "long-sleeps",
+                    "idle",
+                    "pedll"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "fQGR.a"
+            },
+            {
+                "md5": "e435d5652aa6eb4de4b1ee292cfc39ba"
+            },
+            {
+                "sha1": "caedd40402f84313d487a6262482ff5490042058"
+            },
+            {
+                "sha256": "f8622a502209c18055a308022629432d82f823dd449abd9b17c61e363a890828"
+            },
+            {
+                "ssdeep": "3072:fihV6gYYH1BM01eK7vamZ06cyPnItJmx+N8o/NouwjRL0H/glW9mNAuxB:ah+y1BM00KxmyPCbNb/Kuwj8uxB"
+            },
+            {
+                "TLSH": "T1E2049D02B482C0B6D27F16340576ABB65ABC68300F75DECF63A48E795E700D09B35E67"
+            },
+            {
+                "tags": [
+                    "pedll",
+                    "long-sleeps",
+                    "calls-wmi",
+                    "checks-user-input",
+                    "idle"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "Exploit.docx"
+            },
+            {
+                "md5": "04d7e43ef1f650427f4fe75e5cee6bb1"
+            },
+            {
+                "sha1": "e752347da0c7a1cdadfde3c6f377cf8f3379fb2f"
+            },
+            {
+                "sha256": "341dee709285286bc5ba94d14d1bce8a6416cb93a054bd183b501552a17ef314"
+            },
+            {
+                "ssdeep": "768:/N3BMdaTbCPiNuAt75IjES5RKPtLjpm8SV6wcKM:/N3kKWxAtqbnUpm8mCKM"
+            },
+            {
+                "TLSH": "T1FED2D0B6DC1B8822E63391714092D5C8F9268142D37B79EFD542B3CDEA11CC6476ACDA"
+            },
+            {
+                "tags": [
+                    "exploit",
+                    "detect-debug-environment",
+                    "cve-2017-0199",
+                    "calls-wmi",
+                    "docx"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "1a15a35065ec7c2217ca6a4354877e6a1de610861311174984232ba5ff749114.dll"
+            },
+            {
+                "md5": "22f88a6d8729a08b457d078a798ef01f"
+            },
+            {
+                "sha1": "879bfd34263da06b057a6fc05a07095a6cab58d3"
+            },
+            {
+                "sha256": "1a15a35065ec7c2217ca6a4354877e6a1de610861311174984232ba5ff749114"
+            },
+            {
+                "ssdeep": "3072:fihV6gYYH1BM01eK7vamZ06cyPnItJmx+N8o/NouwjRL0H/glW9mNAyxB:ah+y1BM00KxmyPCbNb/Kuwj8yxB"
+            },
+            {
+                "TLSH": "T183049D02B482C0B6D27F16340576ABB65ABC79300F659ACF63A48E795E700D0AB35E67"
+            },
+            {
+                "tags": [
+                    "calls-wmi",
+                    "pedll",
+                    "long-sleeps",
+                    "idle",
+                    "checks-user-input"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "KJ8oqzlG.png"
+            },
+            {
+                "md5": "4779087477a9e27160745f416b762b89"
+            },
+            {
+                "sha1": "c0d8310af7e8d0aba7fceac19fd7813076e085ae"
+            },
+            {
+                "sha256": "12c1a4c6406ff378e8673a20784c21fb997180cd333f4ef96ed4873530baa8d3"
+            },
+            {
+                "ssdeep": "12288:tE+yUXkuW4kNfm1sEqtZ6XC1jaWQyabuMIDfJxwdlyyXFXcxn5:S+vWHxEqtZN1+PyabuMcfUlySFMxn5"
+            },
+            {
+                "TLSH": "T1B7D4AEB875042DD2E66F126BDA96BCC81F76F6239AC794C850A9F7F30473365EE02805"
+            },
+            {
+                "tags": [
+                    "exploit",
+                    "ole-control",
+                    "ole-embedded",
+                    "cve-2018-0798",
+                    "cve-2017-11882",
+                    "rtf"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "b023e2b398d552aacb2233a6e08b4734c205ab6abf5382ec31e6d5aa7c71c1cb.doc"
+            },
+            {
+                "md5": "9e7870b38a9ad2d06b5897de3a5f08e9"
+            },
+            {
+                "sha1": "c3a7154a577cd0b23b53adc713fd3913c1f04c54"
+            },
+            {
+                "sha256": "b023e2b398d552aacb2233a6e08b4734c205ab6abf5382ec31e6d5aa7c71c1cb"
+            },
+            {
+                "ssdeep": "768:OgaRG6eSGe/fJXaVcCx5X5TQlT6/a+W8B:OgNSGoflsccX5Tv"
+            },
+            {
+                "TLSH": "T16AE2D06D9951643DD4F563B26152A298E2AD0093804EADD6F2ED33CFC0D7C8C8EA34DB"
+            },
+            {
+                "tags": [
+                    "cve-2017-0199",
+                    "calls-wmi",
+                    "docx",
+                    "exploit"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "dont_open_me_im_harmful.doc"
+            },
+            {
+                "md5": "7484e0237ae9f9885c62e3b83cbd87d4"
+            },
+            {
+                "sha1": "3c95cdd85609f9464537ec683e458213e8716a9b"
+            },
+            {
+                "sha256": "7a7e519f82af8091b9ddd14e765357e8900522d422606aefda949270b9bf1a04"
+            },
+            {
+                "ssdeep": "384:3rJH1T6zPzyfjhvKE2Fi6rGsNAYAXJqskGM:3rJHpv2DhAZqCM"
+            },
+            {
+                "TLSH": "T16AE223A81095135AD3932299FF19F0483B2BF51998F084E931EFC3BF657BAECD512522"
+            },
+            {
+                "tags": [
+                    "rtf",
+                    "cve-2017-1882",
+                    "exploit"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "T\u00c3\u00b3m_t\u00e1\u00ba\u00aft_cu\u00e1\u00bb\u0099c_h\u00e1\u00bb\u008dp.docx"
+            },
+            {
+                "md5": "2ee3ae478e7d1f2f473b191b1be5e14f"
+            },
+            {
+                "sha1": "708f44926aad553b09397b2bff2f5d7d3748e0c4"
+            },
+            {
+                "sha256": "811a020b0f0bb31494f7fbe21893594cd44d90f77fcd1f257925c4ac5fabed43"
+            },
+            {
+                "ssdeep": "768:tsaokMt5IGk++bW3amfgcFeI5w/rHR/16uSwtSF:LMt5IGr+bgpFeI5wmmtSF"
+            },
+            {
+                "TLSH": "T1D1D2D01DDE0AC461E26343F8D16A95D4F11E0481EBA9B44BE349A3DC8624CD40BBBDEB"
+            },
+            {
+                "tags": [
+                    "detect-debug-environment",
+                    "calls-wmi",
+                    "docx",
+                    "cve-2017-0199",
+                    "exploit"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "rf9d.a"
+            },
+            {
+                "md5": "2e7cfd8b8cf073e1b7276c8dc5c13b1f"
+            },
+            {
+                "sha1": "00e96e44923a1815327905443144dec8d2aaad25"
+            },
+            {
+                "sha256": "17f4a21e0e8c0ce958baf34e45a8b9481819b9b739f3e48c6ba9a6633cf85b0e"
+            },
+            {
+                "ssdeep": "6144:t9TlTCJ64ZA32WIkRLQ7WKYTubNjVFNAODewQxE:t9P4ZA32W7LQ7W3ubNxrNNaE"
+            },
+            {
+                "TLSH": "T17644AE2174D2C072D5BF0A346868D7A14AFDB9310A24DDABA3D81A2D5FB35C1E635E33"
+            },
+            {
+                "tags": [
+                    "pedll",
+                    "long-sleeps",
+                    "checks-user-input",
+                    "calls-wmi",
+                    "idle"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "zsa.dll"
+            },
+            {
+                "md5": "961aab9910bd0207d0c7816d22949c4d"
+            },
+            {
+                "sha1": "c286dc036fea027777ae44606ecffc158b2fd3a9"
+            },
+            {
+                "sha256": "c4500ad141c595d83f8dba52fa7a1456959fb0bc2ee6b0d0f687336f51e1c14e"
+            },
+            {
+                "ssdeep": "3072:q97bXTUSpXLNl9vjBUCaLQ9L17ZDtKKxUQ//CVtcdCL9uKD3DFWmKd/NmOl6Fjh7:q97zTUSFplkqZlDD6e/FdY9uKDzk6FF7"
+            },
+            {
+                "TLSH": "T118F38C01B480C032D6BE19380974DB725B7FB9304F60DADB67944E7A5E742C1EA39AB7"
+            },
+            {
+                "tags": [
+                    "idle",
+                    "calls-wmi",
+                    "long-sleeps",
+                    "spreader",
+                    "checks-user-input",
+                    "pedll"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "f2779c63373e33fdbd001f336df36b01b0360cd6787c1cd29a6524cc7bcf1ffb.rtf"
+            },
+            {
+                "md5": "5c882934fb0b14fff46300e607201944"
+            },
+            {
+                "sha1": "dd4464e773fcc3f39b16007fc03874b55e6f31ca"
+            },
+            {
+                "sha256": "f2779c63373e33fdbd001f336df36b01b0360cd6787c1cd29a6524cc7bcf1ffb"
+            },
+            {
+                "ssdeep": "6144:S/r+0GHXPpiqhmRvTv6dO98fITb8SrtUcqBChNqc0BM04aW+rRNcCQ71dXefHp03:Sz+fFQ6dO9VTJ3X9H9atRNjQ7zXefHc"
+            },
+            {
+                "TLSH": "T1CF94AFB835042DE6E66F126FDA96B8DC1F62F6138AC794C850A9F7F30573365EE02805"
+            },
+            {
+                "tags": [
+                    "ole-control",
+                    "cve-2018-0798",
+                    "rtf",
+                    "exploit",
+                    "cve-2017-1882",
+                    "cve-2017-11882",
+                    "ole-embedded"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "32a0f6276fea9fe5ee2ffda461494a24a5b1f163a300bc8edd3b33c9c6cc2d17.json"
+            },
+            {
+                "md5": "ff0784a42ff3b242965ec290db066d55"
+            },
+            {
+                "sha1": "2420815b447206cc6e24f9e23c452ebb06465802"
+            },
+            {
+                "sha256": "32a0f6276fea9fe5ee2ffda461494a24a5b1f163a300bc8edd3b33c9c6cc2d17"
+            },
+            {
+                "ssdeep": "384:HyaZPQaSfibijmgLMAUwlfONSSo5sTxppDUgzrhY52kpdqHpoEyUe3orDNi:SayaSZLLDlf0ppImhY8ucpo4e3ii"
+            },
+            {
+                "TLSH": "T13DA2C07BCC918DF2C6BBB4329004D5ECEA691053E38B2D0987DA77ED9A40EC45316DE6"
+            },
+            {
+                "tags": [
+                    "exploit",
+                    "detect-debug-environment",
+                    "calls-wmi",
+                    "cve-2017-0199",
+                    "docx"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "9d628750295f5cde72f16da02c430b5476f6f47360d008911891fdb5b14a1a01.docx"
+            },
+            {
+                "md5": "d5b68aaebd9ec0ee4de9cb69833d6941"
+            },
+            {
+                "sha1": "342720b7a5f5dd2c5e49f4b75947fe2b147546ba"
+            },
+            {
+                "sha256": "9d628750295f5cde72f16da02c430b5476f6f47360d008911891fdb5b14a1a01"
+            },
+            {
+                "ssdeep": "384:PGfHuXjRzKpqOE8Ug+TfjWDJTOV+Al1PRCxjFili0O1kokR:SuZDjlQq1PRm2i0OtkR"
+            },
+            {
+                "TLSH": "T1FB629D391E056970D6768034C1F2E1A4E55E6B81D03EF897645E33CC4EA2ED81BBBDC9"
+            },
+            {
+                "tags": [
+                    "calls-wmi",
+                    "cve-2017-0199",
+                    "exploit",
+                    "docx"
+                ]
+            }
+        ],
+        [
+            {
+                "Name": "657948a33e70d61e5f8939571cf4c140.virobj"
+            },
+            {
+                "md5": "657948a33e70d61e5f8939571cf4c140"
+            },
+            {
+                "sha1": "372ab021bbdf261bc2b858025ccb3d1e9fb6dfdc"
+            },
+            {
+                "sha256": "065d399f6e84560e9c82831f9f2a2a43a7d853a27e922cc81d3bc5fcd1adfc56"
+            },
+            {
+                "ssdeep": "3072:q97bXTUSpXLNl9vjBUCaLQ9L17ZDtKKxUQ//CVtcdCL9uKD3DFWmKd/NmOl6Zjh7:q97zTUSFplkqZlDD6e/FdY9uKDzk6ZF7"
+            },
+            {
+                "TLSH": "T146F38D01B480C032D6BE19380974DB725B7FA9304F60DADB67944E7A5F742C1EA39AB7"
+            },
+            {
+                "tags": [
+                    "idle",
+                    "pedll",
+                    "calls-wmi",
+                    "checks-user-input",
+                    "spreader",
+                    "long-sleeps"
+                ]
+            }
+        ]
+    ],
+    "Targeted Entities": {
+        "Targeted Entities": [
+            "Chinese organizations."
+        ]
+    }
+}
