@@ -203,7 +203,7 @@ def generate_report(pdf_path):
 
 if __name__ == "__main__":
     # Example usage
-    pdf_path = "C3i_HACKATHON_FINAL_ROUND_Q1_DATA/Blackberry_BlindEagle-Fake-UUE-Fsociety-Target-Colombia(02-27-2023).pdf"  # Replace with your actual PDF file path
+    pdf_path = "cyber_security_pdf_reports/Blackberry_BlindEagle-Fake-UUE-Fsociety-Target-Colombia(02-27-2023).pdf"  # Replace with your actual PDF file path
     report = generate_report(pdf_path)
     # print(report)
 

@@ -294,6 +294,7 @@ def main(api_key, pdf_path, output_filename='output.json', output_txt_filename='
 if __name__ == "__main__":
     
     api_key = 'af26b8c4a4662087b1e796a2c5de5528d82cbdf553d022992e7f4e9b5b4d72d4'
-    pdf_path = "C3i_HACKATHON_FINAL_ROUND_Q1_DATA/Checkpoint_Chinese-Espionage-Southeast-Asian-Government-Entities(03-07-2023).pdf"  # Replace with your actual PDF file path
+    # Replace with your actual PDF file path
+    pdf_path = "cyber_security_pdf_reports/Checkpoint_Chinese-Espionage-Southeast-Asian-Government-Entities(03-07-2023).pdf"
 
     main(api_key, pdf_path)
